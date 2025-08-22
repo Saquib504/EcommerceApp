@@ -21,9 +21,14 @@ Built as a showcase project for learning Flutter app architecture, state managem
 
 *(Add real app screenshots here — e.g., Intro Page, Shop Page, Cart Page, Profile Page)*  
 
-| Intro Page | Shop Page | Cart Page | Profile Page |
-|------------|-----------|-----------|--------------|
-| ![Intro](screenshots/intropage.png) | ![Shop](screenshots/shoppage.png) | ![Cart](screenshots/cart.png) | ![Profile](screenshots/profile.png) |
+| Intro Page | Shop Page |
+|------------|-----------|
+| ![Intro](screenshots/intropage.png) | ![Shop](screenshots/shoppage.png) |
+
+| Cart Page | Profile Page |
+|-----------|--------------|
+| ![Cart](screenshots/cart.png) | ![Profile](screenshots/profilepage.png) |
+
 
 ---
 
