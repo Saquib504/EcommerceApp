@@ -27,7 +27,7 @@ Built as a showcase project for learning Flutter app architecture, state managem
 
 | Cart Page | Profile Page |
 |-----------|--------------|
-| ![Cart](screenshots/cart.png) | ![Profile](screenshots/profilepage.png) |
+| ![Cart](screenshots/cartpage.png) | ![Profile](screenshots/profilepage.png) |
 
 
 ---
