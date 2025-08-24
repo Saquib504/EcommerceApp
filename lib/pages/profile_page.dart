@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/components/my_info_tile.dart';
 import 'package:ecommerceapp/models/user.dart';
 import 'package:flutter/material.dart';
 
@@ -41,20 +42,15 @@ class ProfilePage extends StatelessWidget {
                   const SizedBox(height: 30),
 
                   //user details
-                  Text(
-                    currentUser.name,
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  ),
+                  MyInfoTile(data: currentUser.name),
+
                   const SizedBox(height: 10),
-                  Text(
-                    currentUser.email,
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  ),
+
+                  MyInfoTile(data: currentUser.email),
+
                   const SizedBox(height: 10),
-                  Text(
-                    currentUser.userSince,
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  ),
+
+                  MyInfoTile(data: currentUser.userSince),
                 ],
               ),
             ],
